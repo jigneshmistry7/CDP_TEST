@@ -43,8 +43,9 @@
                                             </div>
                                             <div class="part-2">
                                                 <h3 class="product-title">{{ $product->name }}</h3>
-                                                <h4 class="product-old-price">{{ $product->discount }}</h4>
-                                                <h4 class="product-price">{{ $product->price }}</h4>
+                                                <h4 class="product-price">Discount % {{ $product->discount }}</h4>
+                                                <br>
+                                                <h4 class="product-price">${{ $product->price }}</h4>
                                             </div>
                                         </div>
                                     </div>
